@@ -1,6 +1,6 @@
 # Portafolio
 
-Este es el sitio web de https://burongtz.com
+Este es código del sitio web de https://burongtz.com
 
 ## ¿Cómo instalar en local?
 
