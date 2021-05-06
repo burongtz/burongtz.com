@@ -4,7 +4,7 @@ mix.pug = require('laravel-mix-pug-recursive');
 
 mix
     .sass('src/scss/app.scss', 'css/')
-    .pug('src/pug/**/*.pug', 'dist', {
+    .pug('src/pug/pages/**/*.pug', 'dist', {
         excludePath: 'src/pug',
     })
     .setPublicPath('dist');
