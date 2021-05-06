@@ -22,6 +22,6 @@ Los pasos anteriores se hacen sólo una ves. Para publicar seguir los pasos:
 
 * `npm run prod`
 * `cd dist`
-* `git add . && git commit -m "Release $(date)`
+* `git add . && git commit -m "Release $(date)"`
 * `git push`
 * `cd ..` para regresar al código fuente
