@@ -2,9 +2,11 @@
   "scripts": {
     "dev": "mix",
     "watch": "mix watch",
-    "prod": "mix --production"
+    "prod": "mix --production",
+    "serve": "http-server ./dist -p8081"
   },
   "devDependencies": {
+    "http-server": "^0.12.3",
     "laravel-mix": "^6.0.18",
     "laravel-mix-pug-recursive": "^0.3.4",
     "pug": "^3.0.2",
