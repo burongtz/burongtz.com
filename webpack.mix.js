@@ -16,4 +16,5 @@ const pugOptions = {
 
 mix.sass('src/scss/app.scss', 'css/')
     .pug('src/pug/pages/**/*.pug', 'dist', pugOptions)
+    .copy('src/images/favicon.ico', 'dist')
     .setPublicPath('dist');
