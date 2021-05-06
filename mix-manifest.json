@@ -1,5 +1,6 @@
 {
     "/css/app.css": "/css/app.css",
     "/404.html": "/404.html",
-    "/index.html": "/index.html"
+    "/index.html": "/index.html",
+    "/favicon.ico": "/favicon.ico"
 }
