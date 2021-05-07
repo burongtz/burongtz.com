@@ -10,6 +10,9 @@
 
   &__toggler {
     padding: .25rem .75rem;
+    background: transparent;
+    border: none;
+
     &-icon {
       display: inline-block;
       width: 1.5em;
