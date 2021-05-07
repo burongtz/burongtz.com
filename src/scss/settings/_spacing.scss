@@ -1,8 +1,8 @@
 $_space: 16;
 
 $space0: 0;
-$space1: $_space * .25;
-$space2: $_space * .5;
-$space3: $_space;
-$space4: $_space * 1.5;
-$space5: $_space * 3;
+$space1: $_space * .25 + px;
+$space2: $_space * .5 + px;
+$space3: $_space + px;
+$space4: $_space * 1.5 + px;
+$space5: $_space * 3 + px;
