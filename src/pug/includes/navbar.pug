@@ -1,9 +1,10 @@
 nav(class='navbar')
     a(class='navbar__brand' href='#') Burón Gtz
 
-    button(class='navbar__toggler' type='button') Toggle
+    button(class='navbar__toggler' type="button" id="the-menu-toggler")
+        span(class='navbar__toggler-icon')
 
-    ul(class='navbar__menu menu')
+    ul(class='navbar__menu menu d-block' id="the-menu")
         each item in ['Inicio', 'Acerca de mí', 'Proyectos', 'Blog', 'Contacto']
             li(class='menu__item')
                 a(class='menu__link' href='#')= item
