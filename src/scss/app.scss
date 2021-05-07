@@ -1,4 +1,18 @@
-@import "~normalize.css";
+// Generic
+@import "generic/box-sizing";
+@import "generic/normalize";
 
-@import "navbar";
+// Elements
+@import "elements/body";
+@import "elements/headlines";
+@import "elements/img";
+@import "elements/links";
+
+// Objects
+@import "objects/container";
+
+// Components
+@import "components/navbar";
+
+// Utilities
 @import "utilities/display";

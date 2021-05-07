@@ -1,0 +1,9 @@
+@use "../settings/colors";
+@use "../settings/typography";
+
+body {
+  color: colors.$text;
+  font-family: typography.$font-family-normal;
+  font-size: typography.$font-size-normal;
+  line-height: typography.$line-height-normal;
+}

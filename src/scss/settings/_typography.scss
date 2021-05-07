@@ -1,52 +1,22 @@
-$headline1: (
-        font-family: unquote("Roboto"),
-        font-size: 96
-);
-$headline2: (
-        font-family: unquote("Roboto"),
-        font-size: 60
-);
-$headline3: (
-        font-family: unquote("Roboto"),
-        font-size: 48
-);
-$headline4: (
-        font-family: unquote("Roboto"),
-        font-size: 34
-);
-$headline5: (
-        font-family: unquote("Roboto"),
-        font-size: 24
-);
-$headline6: (
-        font-family: unquote("Roboto"),
-        font-size: 20
-);
-$body1: (
-        font-family: unquote("Montserrat"),
-        font-size: 16
-);
-$body2: (
-        font-family: unquote("Montserrat"),
-        font-size: 14
-);
-$subtitle1: (
-        font-family: unquote("Roboto"),
-        font-size: 16
-);
-$subtitle2: (
-        font-family: unquote("Roboto"),
-        font-size: 14
-);
-$button: (
-        font-family: unquote("Montserrat"),
-        font-size: 14
-);
-$overline: (
-        font-family: unquote("Montserrat"),
-        font-size: 10
-);
-$caption: (
-        font-family: unquote("Montserrat"),
-        font-size: 12
-);
+$font-family-normal: "Open Sans", sans-serif;
+$font-family-code: monaco, consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+
+$font-weight-lighter: lighter;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$font-weight-bolder: bolder;
+
+$line-height-normal: 1.5;
+$line-height-sm: 1.25;
+$line-height-lg: 2;
+
+$font-size-normal: 1rem;
+$font-size-sm: $font-size-normal * .875;
+$font-size-lg: $font-size-normal * 1.25;
+$font-size-h1: $font-size-normal * 2.5;
+$font-size-h2: $font-size-normal * 2;
+$font-size-h3: $font-size-normal * 1.75;
+$font-size-h4: $font-size-normal * 1.5;
+$font-size-h5: $font-size-normal * 1.25;
+$font-size-h6: $font-size-normal;

@@ -1,0 +1,11 @@
+@use "../settings/colors";
+
+a {
+  color: colors.$link;
+  text-decoration: underline;
+
+  &:hover,
+  &:focus {
+    color: colors.$link-hover;
+  }
+}

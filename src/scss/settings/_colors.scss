@@ -1,6 +1,15 @@
 $primary: #a100db;
-$black: #303030;
 $white: #ffffff;
+$black: #303030;
+$gray: #eeeeee;
 
-$body-background: $white;
-$body-color: $black;
+$background-body: $white;
+$background-pre: $gray;
+
+$text: $black;
+$text-input: $black;
+$text-input-focus: #111111;
+
+$link: $primary;
+$link-visited: #800088;
+$link-hover: #191970;

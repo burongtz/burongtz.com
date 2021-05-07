@@ -1,11 +1,11 @@
-@use "settings/spacing";
+@use "../settings/spacing";
 
 .navbar {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: spacing.$space2;
+  padding: spacing.$space2 0;
   width: 100%;
 
   &__toggler {

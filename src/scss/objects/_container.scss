@@ -1,0 +1,8 @@
+@use "../settings/spacing";
+@use "../settings/layout";
+
+.container {
+  max-width: layout.$max-width;
+  padding: spacing.$space3 spacing.$space2;
+  margin: 0 auto;
+}
